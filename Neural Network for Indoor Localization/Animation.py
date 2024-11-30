@@ -83,6 +83,6 @@ def animate_user_movement(user_input_file, user_id):
     plt.show()
 
 # Example usage
-user_input_file = r'C:\Users\Hp\OneDrive\Minor Project\archive (1)\TrainingData.csv'  
+user_input_file = r'C:\Users\Hp\OneDrive\Indoor Localization using RSSI Dataset\archive (1)\TrainingData.csv'  
 user_id = int(input("Enter the User ID: "))
 animate_user_movement(user_input_file, user_id)

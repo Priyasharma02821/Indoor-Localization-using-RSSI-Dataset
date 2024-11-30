@@ -91,13 +91,13 @@ def animate_user_movement(user_input_file, user_id, bayes_model_floor, bayes_mod
     plt.show()
 
 # Load your dataset
-dataset = pd.read_csv(r'C:\Users\Hp\OneDrive\Minor Project\archive (1)\TrainingData.csv')
+dataset = pd.read_csv(r'C:\Users\Hp\OneDrive\Indoor Localization using RSSI Dataset\archive (1)\TrainingData.csv')
 
 # Train the Naive Bayes models
 bayes_model_floor, bayes_model_building = train_naive_bayes_models(dataset)
 
 # Example usage
-user_input_file = r'C:\Users\Hp\OneDrive\Minor Project\archive (1)\TrainingData.csv'
+user_input_file = r'C:\Users\Hp\OneDrive\Indoor Localization using RSSI Dataset\archive (1)\TrainingData.csv'
 user_id = int(input("Enter the User ID: "))
 animate_user_movement(user_input_file, user_id, bayes_model_floor, bayes_model_building)
 
